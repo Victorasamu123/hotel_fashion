@@ -7,8 +7,20 @@ const Hotel = () => {
       <main>
         <section className='bodyStyle'>
          <Header/>
+         {/* hero section */}
          <div className='heroSectionContainer'>
-           hello
+           <div className='heroSectionItemContainer'>
+            <p className='firstPHero'>FIND A HOME FOR YOUR DESIGNS</p>
+            <p className='secondPHero'>Pop Ups In Top Class Hotels Around The World</p>
+            <div className='heroSectionInputContainer'>
+              <div className='firstInput'>
+              </div>
+              <div className='secondInput'>
+              </div>
+              <div className='searchButton'>
+              </div>
+            </div>
+           </div>
          </div>
         </section>
       </main>
