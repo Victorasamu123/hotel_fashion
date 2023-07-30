@@ -1,7 +1,19 @@
 import React from 'react'
 import "../styles/HotelStyle.css"
 import Header from '../component/Header';
+import {AiOutlineSearch} from "react-icons/ai"
+import arrowDown from "../assets/arrow_down.svg"
 const Hotel = () => {
+  const iconStyle= {
+      width: "24px",
+      height:"24px",
+      color:"#666666"
+  }
+  const iconStyleTwo= {
+      width: "48px",
+      height:"48px",
+      color:"white"
+  }
   return (
     <>
       <main>
@@ -14,10 +26,15 @@ const Hotel = () => {
             <p className='secondPHero'>Pop Ups In Top Class Hotels Around The World</p>
             <div className='heroSectionInputContainer'>
               <div className='firstInput'>
+               <AiOutlineSearch style={iconStyle}/>
+               <p className='textInputOne'>Find a space</p>
               </div>
               <div className='secondInput'>
+                <p className='textInputTwo'>Duration</p>
+                <img src={arrowDown} alt="" />
               </div>
               <div className='searchButton'>
+              <AiOutlineSearch style={iconStyleTwo}/>
               </div>
             </div>
            </div>
