@@ -8,6 +8,7 @@ import TrendingBrand from '../component/TrendingBrand';
 import ExclusiveBrand from '../component/ExclusiveBrand';
 import AvailableHotel from '../component/AvailableHotel';
 import ClientComment from '../component/ClientComment';
+import Footer from '../component/Footer';
 const Hotel = () => {
   const iconStyle= {
       width: "24px",
@@ -49,6 +50,7 @@ const Hotel = () => {
          <ExclusiveBrand/>
          <AvailableHotel/>
          <ClientComment/>
+         <Footer/>
         </section>
       </main>
     </>
