@@ -7,6 +7,7 @@ import TrendingHotel from '../component/TrendingHotel';
 import TrendingBrand from '../component/TrendingBrand';
 import ExclusiveBrand from '../component/ExclusiveBrand';
 import AvailableHotel from '../component/AvailableHotel';
+import ClientComment from '../component/ClientComment';
 const Hotel = () => {
   const iconStyle= {
       width: "24px",
@@ -47,6 +48,7 @@ const Hotel = () => {
          <TrendingBrand/>
          <ExclusiveBrand/>
          <AvailableHotel/>
+         <ClientComment/>
         </section>
       </main>
     </>
