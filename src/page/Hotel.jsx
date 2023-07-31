@@ -3,6 +3,7 @@ import "../styles/HotelStyle.css"
 import Header from '../component/Header';
 import {AiOutlineSearch} from "react-icons/ai"
 import arrowDown from "../assets/arrow_down.svg"
+import TrendingHotel from '../component/TrendingHotel';
 const Hotel = () => {
   const iconStyle= {
       width: "24px",
@@ -39,6 +40,7 @@ const Hotel = () => {
             </div>
            </div>
          </div>
+         <TrendingHotel/>
         </section>
       </main>
     </>
