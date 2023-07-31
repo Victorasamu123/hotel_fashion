@@ -5,6 +5,7 @@ import {AiOutlineSearch} from "react-icons/ai"
 import arrowDown from "../assets/arrow_down.svg"
 import TrendingHotel from '../component/TrendingHotel';
 import TrendingBrand from '../component/TrendingBrand';
+import ExclusiveBrand from '../component/ExclusiveBrand';
 const Hotel = () => {
   const iconStyle= {
       width: "24px",
@@ -43,6 +44,7 @@ const Hotel = () => {
          </div>
          <TrendingHotel/>
          <TrendingBrand/>
+         <ExclusiveBrand/>
         </section>
       </main>
     </>
