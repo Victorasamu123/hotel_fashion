@@ -28,7 +28,7 @@ const ClientComment = () => {
             "Hotels Fashion has provided an incredible platform for me to showcase my designs to a wider audience. The exposure and recognition I have gained through their hotel partnerships have been invaluable. They truly appreciate the work of designers”
             </p>
           </div>
-          <div className='thirdComment'>
+          <div className='thirdComment'  data-aos="fade-up" data-aos-easing="ease-in-sine"> 
           <div className='headersContainer'>
             <p className='manager'>Manager, Collxx</p>
             <img src={stars} alt="" />
