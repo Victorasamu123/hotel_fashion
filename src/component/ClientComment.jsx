@@ -8,7 +8,8 @@ const ClientComment = () => {
       <div className='conTainer'>
         <p className='whatClientSay'>What Our Clients Are Saying About Us</p>
         <div className='commentContainer'>
-          <div className='firstComment'>
+          <div className='firstComment' data-aos="fade-down"
+     data-aos-easing="linear">
             <div className='headersContainer'>
             <p className='manager'>Manager, The Vineyard</p>
             <img src={stars} alt="" />
@@ -17,7 +18,8 @@ const ClientComment = () => {
             “Our collaboration with Hotels Fashion has been a game-changer for us. The unique and beautifully designed products showcased in our hotel have received an overwhelmingly positive response from our guests”
             </p>
           </div>
-          <div className='secondComment'>
+          <div className='secondComment' data-aos="fade-right"
+     data-aos-easing="ease-in-sine">
           <div className='headersContainer'>
             <p className='manager'>Manager, Tobams Colors</p>
             <img src={stars} alt="" />
